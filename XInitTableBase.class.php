@@ -105,7 +105,7 @@ class XInitTableBase {
         } else if( strcmp( $act, 'delete' ) === 0 ) {
             return $this->JReturn( $this->Del() );
 
-        } else if( strcmp( $act == 'remove' ) === 0 ) {
+        } else if( strcmp( $act, 'remove' ) === 0 ) {
             return $this->JReturn( $this->Remove() );
 
         } else if( strcmp( $act, 'get' ) === 0 ) {
